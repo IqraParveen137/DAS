@@ -1,0 +1,31 @@
+.facilityHeading{
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+    color: rgb(6,77,77);
+}
+.facility-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color:rgb(6,77,77);
+}
+.facility-container .card{
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    margin: 8px;
+}
+.facility-container i{
+    font-size: 50px;
+   margin-bottom: 10px;
+}
+.facility-container .card:hover{
+    cursor: pointer;
+    background-color:rgb(40,184,160);
+    color: white;
+}

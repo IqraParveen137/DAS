@@ -1,0 +1,33 @@
+.navbar-container{
+    overflow: hidden;
+    border-bottom: 1px solid rgba(128,128,128,0.17);
+    background-color: #fff;
+      z-index: 1;
+}
+.topbar-container{
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    justify-content: space-evenly;
+    background-color: rgb(6,77,77);
+    color: #fff;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.nav.link{
+    font-weight: 600;
+    margin-left: 20px;
+}
+.brand-logo{
+  width: 184px;
+  height: 100px;
+}
+.book-btn:hover{
+    background-color:  rgb(6,77,77);
+    border-color: rgb(6,77,77);
+}
+

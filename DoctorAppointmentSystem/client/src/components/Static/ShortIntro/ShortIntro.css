@@ -1,0 +1,21 @@
+.intro-container{
+    margin: 30px 0px;
+    overflow: hidden;
+}
+.hos-image{
+    border-radius: 10px;
+    box-shadow: -5px 5px 5px 5px gray;
+}
+.intro-container .info-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.info-container h1{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.info-container h6{
+    color: (0,0,0,0.836);
+    margin-bottom: 30px;
+}
